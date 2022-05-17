@@ -76,7 +76,7 @@ class PokeneaController extends Controller
         $totalPokeneas = (count(PokeneaController::$pokeneas));
         $randomNumber = (rand(0,($totalPokeneas-1)));
         $randomPokenea = PokeneaController::$pokeneas[$randomNumber];
-        return response()->json(['Pokenea' => $randomPokenea, 'server_ip' => gethostbyname(gethostname())]);
+        return response()->json(['ID' => $randomPokenea['id'], 'Name' => $randomPokenea['name'],'Height' => $randomPokenea['height'], 'Skill' => $randomPokenea['skill'], 'server_ip' => gethostbyname(gethostname())]);
     }
 
     public function getRandomPokeneaImage()
