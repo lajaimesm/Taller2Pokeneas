@@ -10,7 +10,7 @@ class PokeneaController extends Controller
             'name' => 'LuchitoSSJ',
             'height' => '1.50 m',
             'skill' => 'Trapear siendo super sangre joven',
-            'image' => 'https://storage.googleapis.com/pokeneasbucket/Pokenea1',
+            'image' => 'https://storage.googleapis.com/pokeneasbucket/Luchossj.jpg',
             'phrase' => 'Toy contando ticket ticket como Jimmy Fallon',
         ),
         array(
@@ -18,7 +18,7 @@ class PokeneaController extends Controller
             'name' => 'Duketo',
             'height' => '1.69 m',
             'skill' => 'Cara de diablo',
-            'image' => 'https://storage.googleapis.com/pokeneasbucket/Pokenea1',
+            'image' => 'https://storage.googleapis.com/pokeneasbucket/Duki.webp',
             'phrase' => 'Yo quiero salvarte como Naruto a Konoha, estoy usando los poderes super saiyan como Gohan',
         ),
         array(
@@ -26,7 +26,7 @@ class PokeneaController extends Controller
             'name' => 'Quevedo',
             'height' => '1.76 m',
             'skill' => 'Hacer temones',
-            'image' => 'https://storage.googleapis.com/pokeneasbucket/Pokenea1',
+            'image' => 'https://storage.googleapis.com/pokeneasbucket/Quevedo.jpg',
             'phrase' => 'Quevedo con el Lin, Quevedo con el Linton',
         ),
         array(
@@ -34,7 +34,7 @@ class PokeneaController extends Controller
             'name' => 'C.R.O',
             'height' => '1.79 m',
             'skill' => 'Va ciego por el club',
-            'image' => 'https://storage.googleapis.com/pokeneasbucket/Pokenea1',
+            'image' => 'https://storage.googleapis.com/pokeneasbucket/CRO.jpg',
             'phrase' => 'Ciego por el club, sigo ciego el club, ciego por el club, sigo ciego el club',
         ),
         array(
@@ -42,7 +42,7 @@ class PokeneaController extends Controller
             'name' => 'Eladio Carrion Sendo Cabron',
             'height' => '1.88 m',
             'skill' => 'Es de la H',
-            'image' => 'https://storage.googleapis.com/pokeneasbucket/Pokenea1',
+            'image' => 'https://storage.googleapis.com/pokeneasbucket/eladio-carrion.jpg',
             'phrase' => 'Primero la H, despues va la U, despues va la M, la A, C, A, O',
         ),
         array(
@@ -50,7 +50,7 @@ class PokeneaController extends Controller
             'name' => 'Khea',
             'height' => '1.73m',
             'skill' => 'Flexea jovemente',
-            'image' => 'https://storage.googleapis.com/pokeneasbucket/Pokenea1',
+            'image' => 'https://storage.googleapis.com/pokeneasbucket/khea.jpg',
             'phrase' => 'Sabe que la quiero pero she dont give a fo',
         ),
         array(
@@ -58,7 +58,7 @@ class PokeneaController extends Controller
             'name' => 'Seven Kayne',
             'height' => '1.77',
             'skill' => 'Sieteeeeeeee',
-            'image' => 'https://storage.googleapis.com/pokeneasbucket/Pokenea1',
+            'image' => 'https://storage.googleapis.com/pokeneasbucket/sevenkayne.webp',
             'phrase' => 'Ni droga, ni ropa, ni alcohol, yo queria tu corazon',
         ),
         array(
@@ -66,7 +66,7 @@ class PokeneaController extends Controller
             'name' => 'Ysy A',
             'height' => '1.72 m',
             'skill' => 'Compra muchos flows',
-            'image' => 'https://storage.googleapis.com/pokeneasbucket/Pokenea1',
+            'image' => 'https://storage.googleapis.com/pokeneasbucket/ysy%20a.jpg',
             'phrase' => 'Es que yo por alla yo escuche que se dice que le ysy compra flows en otro planeta',
         ),
     );
