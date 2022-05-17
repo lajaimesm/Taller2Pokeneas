@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-class HomeController extends Controller
+class ImagesController extends Controller
 {
     public static $pokeneas = array(
         array(1,"Pokenea1",1.80,"Llamada al barrrio, invoca ultras del nacional para pelear"),
@@ -14,11 +14,11 @@ class HomeController extends Controller
         array(7,"Pokenea7",1.80,"Llamada al barrrio, invoca ultras del nacional para pelear"),
         array(8,"Pokenea8",1.80,"Llamada al barrrio, invoca ultras del nacional para pelear"),);
 
-    public function index()
+    public function images()
     {
-        $totalPokeneas = (count(HomeController::$pokeneas));
+        $totalPokeneas = (count(ImagesController::$pokeneas));
         $randomNumber = (rand(0,($totalPokeneas-1)));
-        $randomPokenea = HomeController::$pokeneas[$randomNumber];
+        $randomPokenea = ImagesController::$pokeneas[$randomNumber];
         return response()->json(['Pokenea' => $randomPokenea]);
 
     }

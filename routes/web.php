@@ -18,5 +18,10 @@ $router->get('/', function () use ($router) {
 });
 
 $router->get('/index', [
+    'as' => 'index', 'uses' => 'IndexController@index'
+]);
+
+$router->get('/images', [
     'as' => 'index', 'uses' => 'HomeController@index'
 ]);
+
